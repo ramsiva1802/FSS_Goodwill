@@ -1,0 +1,31 @@
+# build output
+target/
+bin/
+
+# TestNG / Extent / run output (regenerated on every run)
+test-output/
+Report/
+Reports/
+*.log
+
+# local secrets / environment (copy the *.example files and fill in your own values)
+env.properties
+src/test/resources/db.properties
+src/test/resources/env.properties
+
+# tester's workbook (holds API responses with customer ids)
+TestData/Scheme_Test_Tracker.xlsx
+
+# IDE
+.settings/
+.idea/
+*.iml
+
+# OS
+Thumbs.db
+.DS_Store
+
+# data files / generators (may hold customer data)
+CustomerData.xlsx
+StockItemData.xlsx
+make_*.py

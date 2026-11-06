@@ -1,0 +1,9 @@
+# Copy this file to db.properties (not committed) and fill in your own values.
+db.host=your-db-host
+db.port=1433
+db.name=your-database
+db.user=your-db-user
+db.password=your-db-password
+db.table=CoreCompany
+db.code_column=CompanyCode
+db.name_column=CompanyName
